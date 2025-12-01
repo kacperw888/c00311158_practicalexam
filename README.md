@@ -89,7 +89,7 @@ with open("input.txt", "r") as input:
 
 ```bash
 cipher () {
-        echo "$1" | tr 'a-z' 'z-a'
+        echo "$1" | tr 'abcdefghijklmnopqrstuvwxyz' 'zyxwvutsrqponmlkjihgfedcba'
 }
 
 ```
